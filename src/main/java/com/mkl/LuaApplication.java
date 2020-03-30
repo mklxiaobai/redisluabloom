@@ -48,7 +48,7 @@ public class LuaApplication {
             "return 'this object exist'"+ "\n" +
             "end"+ "\n";
     /**
-     * 这是将脚本提取到外面为常量，用 jedis.evalsha()加载
+     * 测试添加字符串至布隆过滤器
      */
     public static void main(String[] args) {
         Jedis jedis = RedisConfig.getJedis();
@@ -63,7 +63,7 @@ public class LuaApplication {
     }
 
     /**
-     * 查询测试
+     * 测试查询字符串是否存在
      */
 //    public static void main(String[] args) {
 //        Jedis jedis = RedisConfig.getJedis();
