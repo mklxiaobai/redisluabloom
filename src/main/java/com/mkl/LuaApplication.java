@@ -68,7 +68,7 @@ public class LuaApplication {
 //    public static void main(String[] args) {
 //        Jedis jedis = RedisConfig.getJedis();
 //        List<String> keys = new ArrayList<>();
-//        keys.add("bloom1");
+//        keys.add(StrHashUtil.getHashBiteArry("bloom1"));
 //        List<String> arggs = new ArrayList<>();
 //        arggs.add("mkl");
 //        String luaLoad = jedis.scriptLoad(luaExists);
